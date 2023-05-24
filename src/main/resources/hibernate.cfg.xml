@@ -2,9 +2,9 @@
     <session-factory>
         <!-- Alte proprietăți de configurare Hibernate -->
         <property name="hibernate.connection.driver_class">com.mysql.jdbc.Driver</property>
-        <property name="hibernate.connection.url">jdbc:mysql://localhost:3306/studentapidb</property>
+        <property name="hibernate.connection.url">jdbc:postgresql://localhost:5432/studentapidb</property>
         <property name="hibernate.connection.username">lorymarymari329</property>
         <property name="hibernate.connection.password">lorena.1998</property>
-        <!-- Alte proprietăți de configurare Hibernate -->bogdyy
+        <!-- Alte proprietăți de configurare Hibernate -->
     </session-factory>
 </hibernate-configuration>
